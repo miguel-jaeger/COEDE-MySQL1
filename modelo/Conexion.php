@@ -2,9 +2,9 @@
 class Conexion {
     public static function conectar() {
         $host = "localhost";
-        $dbname = "cursos";
+        $dbname = "db_cursos";
         $usuario = "root";
-        $password = "";
+        $password = "root";
 
         try {
             $conn = new PDO("mysql:host=$host;dbname=$dbname", $usuario, $password);
